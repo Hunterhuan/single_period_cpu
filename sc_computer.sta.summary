@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'generate_clock:clock_50M|clock'
+Slack : -52.021
+TNS   : -20969.208
+
+Type  : Slow 1100mV 85C Model Setup 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -16.894
+TNS   : -65.804
+
+Type  : Slow 1100mV 85C Model Setup 'mem_clk'
+Slack : -13.263
+TNS   : -1793.133
+
+Type  : Slow 1100mV 85C Model Hold 'mem_clk'
+Slack : -9.248
+TNS   : -670.544
+
+Type  : Slow 1100mV 85C Model Hold 'generate_clock:clock_50M|clock'
+Slack : -6.060
+TNS   : -895.180
+
+Type  : Slow 1100mV 85C Model Hold 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -5.053
+TNS   : -18.581
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -4.236
+TNS   : -597.192
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'generate_clock:clock_50M|clock'
+Slack : -2.174
+TNS   : -956.523
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'mem_clk'
+Slack : -2.174
+TNS   : -306.363
+
+Type  : Slow 1100mV 0C Model Setup 'generate_clock:clock_50M|clock'
+Slack : -54.480
+TNS   : -21205.592
+
+Type  : Slow 1100mV 0C Model Setup 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -17.018
+TNS   : -66.381
+
+Type  : Slow 1100mV 0C Model Setup 'mem_clk'
+Slack : -13.662
+TNS   : -1835.082
+
+Type  : Slow 1100mV 0C Model Hold 'mem_clk'
+Slack : -8.929
+TNS   : -642.298
+
+Type  : Slow 1100mV 0C Model Hold 'generate_clock:clock_50M|clock'
+Slack : -5.864
+TNS   : -690.671
+
+Type  : Slow 1100mV 0C Model Hold 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -5.154
+TNS   : -19.160
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -4.365
+TNS   : -617.063
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'generate_clock:clock_50M|clock'
+Slack : -2.174
+TNS   : -922.280
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'mem_clk'
+Slack : -2.174
+TNS   : -306.455
+
+Type  : Fast 1100mV 85C Model Setup 'generate_clock:clock_50M|clock'
+Slack : -25.602
+TNS   : -13515.237
+
+Type  : Fast 1100mV 85C Model Setup 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -10.386
+TNS   : -40.104
+
+Type  : Fast 1100mV 85C Model Setup 'mem_clk'
+Slack : -9.775
+TNS   : -1258.720
+
+Type  : Fast 1100mV 85C Model Hold 'mem_clk'
+Slack : -5.161
+TNS   : -358.368
+
+Type  : Fast 1100mV 85C Model Hold 'generate_clock:clock_50M|clock'
+Slack : -3.304
+TNS   : -329.393
+
+Type  : Fast 1100mV 85C Model Hold 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -3.133
+TNS   : -10.938
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -2.274
+TNS   : -252.343
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'mem_clk'
+Slack : -2.174
+TNS   : -305.605
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'generate_clock:clock_50M|clock'
+Slack : -2.174
+TNS   : -250.532
+
+Type  : Fast 1100mV 0C Model Setup 'generate_clock:clock_50M|clock'
+Slack : -24.623
+TNS   : -12761.680
+
+Type  : Fast 1100mV 0C Model Setup 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -9.773
+TNS   : -37.815
+
+Type  : Fast 1100mV 0C Model Setup 'mem_clk'
+Slack : -9.248
+TNS   : -1192.194
+
+Type  : Fast 1100mV 0C Model Hold 'mem_clk'
+Slack : -4.856
+TNS   : -349.021
+
+Type  : Fast 1100mV 0C Model Hold 'generate_clock:clock_50M|clock'
+Slack : -3.115
+TNS   : -293.468
+
+Type  : Fast 1100mV 0C Model Hold 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -2.871
+TNS   : -9.998
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'mem_clk'
+Slack : -2.174
+TNS   : -300.284
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'generate_clock:clock_50M|clock'
+Slack : -2.174
+TNS   : -227.962
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -2.049
+TNS   : -218.384
+
+------------------------------------------------------------
