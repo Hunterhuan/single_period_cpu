@@ -4,13 +4,13 @@ input [31:0] addr;
 input io_clk;
 input [3:0] in_port0,in_port1;
 input in_port2;
-
 output [31:0] io_read_data;
 
-reg [31:0] in_reg0; // input port0
-reg [31:0] in_reg1; // input port1
-reg [31:0] in_reg2;
+reg [31:0] in_reg0; // input 操作数1
+reg [31:0] in_reg1; // input 操作数2
+reg [31:0] in_reg2; // input 操作类型信号
 
+//调用I/O多选器，根据address将寄存器中对应数据读出。
 io_input_mux io_imput_mux2x32(in_reg0,in_reg1,in_reg2,addr[7:2],io_read_data);
 
 always @(posedge io_clk)
@@ -21,7 +21,6 @@ begin
 // more ports，可根据需要设计更多的输入端口。
 end
 endmodule
-
 
 module io_input_mux(a0,a1,a2,sel_addr,y);
 input [31:0] a0,a1,a2;

@@ -28,18 +28,13 @@ begin
 		num2 = 1;
 		num3 = out_port1-10;
 	end
-
-	
 	num4 = out_port2/10;
 	num5 = out_port2 - num4*10;
-
 end
-
 sevenseg display_0_high (num0, hex0);
 sevenseg display_0_low (num1, hex1);
 sevenseg display_1_high (num2, hex4);
 sevenseg display_1_low (num3, hex5);
 sevenseg display_2_high (num4, hex2);
 sevenseg display_2_low (num5, hex3);
-
 endmodule
